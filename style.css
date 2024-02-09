@@ -1,0 +1,347 @@
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans-Bold.eot");
+  src: url("/fonts/DMSans-Bold.eot?#iefix") format("embedded-opentype");
+  src: url("/fonts/DMSans-Bold.ttf") format("truetype");
+  src: url("/fonts/DMSans-Bold.woff") format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "DMSans";
+  src: url("/fonts/DMSans-Medium.eot");
+  src: url("/fonts/DMSans-Medium.eot?#iefix") format("embedded-opentype");
+  src: url("/fonts/DMSans-Medium.ttf") format("truetype");
+  src: url("/fonts/DMSans-Medium.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  line-height: 27px;
+  font-family: "DMSans";
+  font-weight: 400;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  color: rgb(255, 255, 255);
+}
+
+ul {
+  list-style-type: none;
+}
+
+body {
+  background: rgb(25, 25, 25);
+}
+
+.button {
+  background-color: rgb(17, 141, 168);
+  padding: 12px 15px 12px 20px;
+  border-radius: 6px;
+  font-size: 17px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1300px;
+}
+
+.header {
+  margin: 26px 50px;
+}
+.header-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-logo {
+  cursor: pointer;
+}
+.header .nav-menu {
+  font-size: 18px;
+}
+.header .nav-menu ul {
+  display: flex;
+}
+.header .nav-menu li {
+  padding: 20px;
+  cursor: pointer;
+}
+
+.presentation {
+  margin-bottom: 100.44px;
+}
+.presentation-wrap {
+  display: flex;
+}
+.presentation-photo {
+  position: relative;
+}
+.presentation-effect {
+  position: absolute;
+  top: -26px;
+  left: -26px;
+}
+
+.description {
+  margin: 0 60px;
+}
+.description-text {
+  margin-bottom: 90px;
+}
+.description-text p {
+  font-size: 70px;
+  line-height: 88px;
+}
+.description-text .special {
+  font-size: 80px;
+  font-weight: 700;
+}
+.description-text .next {
+  font-size: 75px;
+  position: relative;
+}
+.description-text .border {
+  position: absolute;
+  line-height: 0;
+  bottom: 0;
+  left: 0;
+}
+.description-contacts {
+  padding: 22px;
+}
+.description-subtitle {
+  font-size: 15px;
+  line-height: 24px;
+  margin-bottom: 16px;
+}
+.description-application {
+  display: flex;
+}
+
+.application-item {
+  margin-right: 17px;
+}
+
+.episodes {
+  margin-bottom: 260px;
+}
+.episodes-wrap {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 40px;
+  position: relative;
+}
+.episodes-subtitle {
+  font-size: 64px;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.episode {
+  background-color: rgb(0, 0, 0);
+  border-radius: 32px;
+  display: flex;
+  margin-bottom: 60px;
+  padding: 40px;
+}
+.episode:last-of-type {
+  margin-bottom: 0;
+}
+.episode-photo {
+  margin-right: 53px;
+}
+.episode-description {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.episode-title {
+  background-color: rgb(25, 25, 25);
+  border-radius: 6px;
+  font-size: 18px;
+  padding: 0 16px;
+  margin-bottom: 48.44px;
+}
+.episode-numbering {
+  font-size: 17px;
+  margin-bottom: 17.56px;
+  color: rgb(17, 141, 168);
+}
+.episode-numbering span {
+  font-size: 18px;
+  margin-left: 5px;
+  color: rgb(17, 141, 168);
+}
+.episode-theme {
+  margin-bottom: 28px;
+  font-size: 64px;
+  line-height: 70.4px;
+  letter-spacing: 2.56px;
+}
+.episode-text {
+  margin-bottom: 18px;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 22px;
+  line-height: 33px;
+}
+
+.speaker {
+  margin-bottom: 200px;
+}
+.speaker-wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.speaker-description {
+  margin-right: 60px;
+}
+.speaker-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  width: 112px;
+  height: 112px;
+  background-color: rgb(17, 141, 168);
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+.speaker-subtitle {
+  font-size: 18px;
+  color: rgb(17, 141, 168);
+}
+.speaker-title {
+  font-size: 65px;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+  margin-bottom: 28px;
+}
+.speaker p {
+  font-size: 22px;
+  line-height: 33px;
+  color: rgba(255, 255, 255, 0.7);
+}
+.speaker p:first-of-type {
+  margin-bottom: 28px;
+}
+.speaker p:last-of-type {
+  margin-bottom: 18.16px;
+}
+
+.subscribe {
+  margin-bottom: 200px;
+}
+.subscribe-wrap {
+  background-color: rgb(0, 0, 0);
+  border-radius: 32px;
+  display: flex;
+  justify-content: space-between;
+  padding: 60px 60px 75px 60px;
+  position: relative;
+}
+.subscribe-subtitle {
+  font-size: 18px;
+  color: rgb(17, 141, 168);
+}
+.subscribe-title {
+  font-size: 72px;
+  line-height: 79.2px;
+  letter-spacing: 2.88px;
+}
+.subscribe-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.subscribe-form input {
+  background-color: rgb(25, 25, 25);
+  width: 522px;
+  height: 82px;
+  margin-bottom: 20px;
+}
+.subscribe-effectdown {
+  position: absolute;
+  left: -38px;
+  bottom: -26px;
+}
+
+.reviews {
+  margin-bottom: 200px;
+}
+.reviews-review {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+
+.review {
+  background-color: rgb(0, 0, 0);
+  border-radius: 32px;
+  padding: 50px;
+}
+.review-text {
+  font-size: 36px;
+  line-height: 43.2px;
+}
+.review-name {
+  font-size: 24px;
+  line-height: 28.8px;
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer {
+  margin-bottom: 100px;
+}
+.footer-wrap {
+  display: flex;
+}
+.footer-contacts {
+  margin-right: 239px;
+}
+.footer-social {
+  display: flex;
+}
+.footer-social .social-item {
+  margin-right: 10px;
+}
+.footer-social .social-item:last-of-type {
+  margin-right: 0px;
+}
+.footer-menu {
+  margin-right: 120px;
+}
+.footer-menu.nav-menu {
+  font-size: 18px;
+}
+.footer-menu.nav-menu ul {
+  display: flex;
+}
+.footer-menu.nav-menu li {
+  padding: 20px;
+  cursor: pointer;
+}
+.footer-block {
+  margin-right: 121px;
+}
+.footer-block.nav-menu {
+  font-size: 18px;
+}
+.footer-block.nav-menu ul {
+  display: flex;
+}
+.footer-block.nav-menu li {
+  padding: 20px;
+  cursor: pointer;
+}/*# sourceMappingURL=style.css.map */
